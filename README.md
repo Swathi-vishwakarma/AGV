@@ -50,8 +50,6 @@ The **Automated Guided Vehicle (AGV)** is a self-navigating robotic system desig
 | **RFID Module** | SPI/I2C Communication |
 | **Battery** | Power Supply (12V or 5V) |
 
-### **Connection Diagram**
-![AGV Connection Diagram](file-GfMSVNyVuup2EQZJDK76rU)
 
 ---
 
