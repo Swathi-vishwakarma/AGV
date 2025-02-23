@@ -6,13 +6,13 @@ The **Automated Guided Vehicle (AGV)** is a self-navigating robotic system desig
 ---
 
 ## 🌟 Features  
-✔ **Autonomous Navigation** – Uses IR, LiDAR, or camera-based path following.  
-✔ **Obstacle Avoidance** – Equipped with ultrasonic and LiDAR sensors.  
-✔ **Wireless Control** – Remote operation via Wi-Fi, Bluetooth, or IoT.  
-✔ **Load Handling** – Can carry and transport materials.  
-✔ **Real-time Monitoring** – Data transmission to a dashboard for live tracking.  
-✔ **Power Management** – Smart battery management for efficient power consumption.  
-✔ **Multiple AGV Coordination** – Can work in fleets with collision avoidance.  
+- **Autonomous Navigation** – Uses IR, LiDAR, or camera-based path following.  
+- **Obstacle Avoidance** – Equipped with ultrasonic and LiDAR sensors.  
+- **Wireless Control** – Remote operation via Wi-Fi, Bluetooth, or IoT.  
+- **Load Handling** – Can carry and transport materials.  
+- **Real-time Monitoring** – Data transmission to a dashboard for live tracking.  
+- **Power Management** – Smart battery management for efficient power consumption.  
+- **Multiple AGV Coordination** – Can work in fleets with collision avoidance.  
 
 ---
 
@@ -50,6 +50,9 @@ The **Automated Guided Vehicle (AGV)** is a self-navigating robotic system desig
 | **RFID Module** | SPI/I2C Communication |
 | **Battery** | Power Supply (12V or 5V) |
 
+### **Connection Diagram**
+![AGV Connection Diagram](file-GfMSVNyVuup2EQZJDK76rU)
+
 ---
 
 ## ⚙️ Working Principle  
@@ -60,6 +63,3 @@ The **Automated Guided Vehicle (AGV)** is a self-navigating robotic system desig
 5️⃣ The **RFID Module** helps in predefined station stopping (if required).  
 6️⃣ The AGV **communicates wirelessly** using Wi-Fi/Bluetooth/ZigBee for remote monitoring.  
 
----
-
-## 📂 Project Structure  
