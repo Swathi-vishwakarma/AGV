@@ -1,49 +1,65 @@
-# 👩‍💻 **Swathi Vishwakarma**
+# 🚗 Automated Guided Vehicle (AGV) Project  
 
-🎓 **Robotics Engineer** | 🏅 **University Rank Holder**
+## 📌 Introduction  
+The **Automated Guided Vehicle (AGV)** is a self-navigating robotic system designed for industrial and warehouse automation. It can autonomously follow a predefined path, avoid obstacles, and transport loads efficiently. AGVs are widely used in manufacturing, logistics, and smart factories to improve operational efficiency and reduce human intervention.  
 
-💡 I love exploring electronics, robotics, and innovative technologies. My passion lies in creating smart solutions that blend creativity with functionality, bringing ideas to life through automation and intelligent systems.
+---
 
-## 🛠️ **Tech Stack & Expertise**
+## 🌟 Features  
+✔ **Autonomous Navigation** – Uses IR, LiDAR, or camera-based path following.  
+✔ **Obstacle Avoidance** – Equipped with ultrasonic and LiDAR sensors.  
+✔ **Wireless Control** – Remote operation via Wi-Fi, Bluetooth, or IoT.  
+✔ **Load Handling** – Can carry and transport materials.  
+✔ **Real-time Monitoring** – Data transmission to a dashboard for live tracking.  
+✔ **Power Management** – Smart battery management for efficient power consumption.  
+✔ **Multiple AGV Coordination** – Can work in fleets with collision avoidance.  
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Embedded C](https://img.shields.io/badge/Embedded%20C-004482?style=for-the-badge&logo=c&logoColor=white) ![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white) ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white) ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) ![Agile](https://img.shields.io/badge/Agile-0275d8?style=for-the-badge&logo=agile&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-00ADEF?style=for-the-badge&logo=internet-of-things&logoColor=white) ![Robot](https://img.shields.io/badge/Robot-FF6F00?style=for-the-badge&logo=robotframework&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white) ![ESP32](https://img.shields.io/badge/ESP32-323232?style=for-the-badge&logo=espressif&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white) ![Jetson Nano](https://img.shields.io/badge/Jetson%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-F34A00?style=for-the-badge&logo=cmake&logoColor=white) ![RTOS](https://img.shields.io/badge/RTOS-FF4088?style=for-the-badge&logo=rtos&logoColor=white)
+---
 
-## 🌟 **Achievements**
+## 🔩 Components Used  
 
-- 🏅 **23rd State Rank** – Masters of Electronics Entrance Exam
-- 🏆 **Guinness World Record Participant** – in collaboration with Guvi
-- 📖 **80+ Webinars Attended** – National & International
+### **1️⃣ Hardware Components**  
+- **Microcontroller/Processor**: Raspberry Pi / Arduino Mega / STM32  
+- **Motor Driver**: L298N / TB6612FNG (for controlling motors)  
+- **Motors**: DC Motors with Encoder / Servo Motor (for precise movement)  
+- **Sensors**:  
+  - IR Sensors (Line following)  
+  - Ultrasonic Sensors (Obstacle detection)  
+  - LiDAR / Camera (Advanced navigation)  
+  - IMU (Inertial Measurement Unit for stability)  
+- **Battery**: 12V Li-ion / Lead Acid Battery  
+- **RFID Module**: For location-based navigation  
+- **Communication Modules**:  
+  - Wi-Fi (ESP8266/ESP32 for IoT-based control)  
+  - Bluetooth (HC-05 for remote control)  
+  - ZigBee/RF Module (For long-range communication)  
+- **LCD Display**: OLED Display for status updates  
 
-## 📁 **Featured Projects**
+---
 
-- 🚗 **Autonomous Guided Vehicle (AGV)** – Designed for efficient material handling and autonomous navigation.
-- 🌾 **Smart Irrigation System** – IoT-based automated solution for optimized water management.
-- 🤖 **Cave and Bomb Detection Robot** – Engineered for hazardous environment exploration and threat detection.
-- 🦿 **Robotic Arm** – Built for precision tasks and industrial automation.
-- 🦾 **Autonomous Mobile Robot (AMR) Navigation** – Developed using ROS2 with obstacle avoidance and optimized path planning.
+## 🛠️ Circuit Connection  
 
-## 📖 **Certifications**
+| Component  | Connection to Microcontroller |
+|------------|------------------------------|
+| **L298N Motor Driver** | PWM Pins (for speed control) |
+| **IR Sensors** | Digital Pins (for line tracking) |
+| **Ultrasonic Sensor** | Trigger & Echo Pins (Obstacle detection) |
+| **LiDAR/Camera** | Serial/I2C Communication |
+| **Bluetooth Module (HC-05)** | Tx & Rx (Serial Communication) |
+| **Wi-Fi Module (ESP8266/ESP32)** | UART or SPI Interface |
+| **RFID Module** | SPI/I2C Communication |
+| **Battery** | Power Supply (12V or 5V) |
 
-- 💻 **Junior Software Developer** – NSIC
-- 📡 **AICTE Sponsored** – Embedded System Design with IoT
-- 👁️ **Face Recognition** – Certified by Guvi
-- 🏠 **Home Automation** – Certified by PROROBO
-- 📊 **ISO-9001:2015 Certified** – Machine Learning, Artificial Intelligence, IoT by Itronix Solutions
-- ☀️ **Short-term Course** – Learn to Design Your Own Solar Home System by Energy Swaraj Foundation
-- 🔌 **International Webinar Participant** – Arduino@home: Hands-on Learning of Electronics and Programming
+---
 
-## 🎯 **Interests**
+## ⚙️ Working Principle  
+1️⃣ The **IR Sensors** detect the line (black/white surface) to follow the predefined path.  
+2️⃣ The **Ultrasonic Sensors** or **LiDAR** detect obstacles and reroute the AGV if necessary.  
+3️⃣ The **Microcontroller (Arduino/Raspberry Pi)** processes the sensor data and sends control signals to the **Motor Driver (L298N)**.  
+4️⃣ The **Motors (DC/Servo)** move the AGV based on the control signals.  
+5️⃣ The **RFID Module** helps in predefined station stopping (if required).  
+6️⃣ The AGV **communicates wirelessly** using Wi-Fi/Bluetooth/ZigBee for remote monitoring.  
 
-- 📘 **Non-fiction Books**
-- 🎵 **Playing Harmonica, Flute, Guitar**
-- 💡 **Exploring New Technologies**
-- 🌟 **Motivating & Mentoring Peers**
-- 📝 **Course Reviewing & Knowledge Sharing**
+---
 
-## 🤝 **Let’s Connect!**
-
-- 📂 [GitHub](https://github.com/jaanu-11)
-- 📧 *Email: [****[your.email@example.com](mailto:your.email@example.com)****]*
-
-⭐ *“The best way to predict the future is to create it.”*
-
+## 📂 Project Structure  
